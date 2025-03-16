@@ -74,7 +74,7 @@ We implemented and compared **Random Forest (RF) and XGBoost (XGB)** under diffe
 ## **Files in Repository**
 - `ML_Random_Forest (Baseline).ipynb` → Baseline Random Forest model  
 - `ML_Random_Forest (SMOTE).ipynb` → RF with SMOTE    
-- `ML_Random_Forest (Without SMOTE).ipynb` → RF without any resampling
+- `ML_Random_Forest (SMOTEENN).ipynb` → RF with SMOTEENN
 - `ML_Random_Forest (Final).ipynb` → RF with SMOTE + Feature Selection  
 - `XGB (Baseline).ipynb` → Baseline XGBoost model  
 - `XGB (SMOTE).ipynb` → XGBoost with SMOTE  

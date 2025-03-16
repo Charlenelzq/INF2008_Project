@@ -39,8 +39,11 @@ We tested various **data preprocessing techniques** to improve model performance
   - Removes noisy samples after SMOTE oversampling.
 
 ### **Feature Selection**
-- **RFE (Recursive Feature Elimination)**
+- **RFE (Recursive Feature Elimination) - Used for Random Forest**
   - Selects the most relevant features by recursively removing less important ones.
+
+- **Threshold-Based Selection - Used for XGBoost**
+  - Selects features based on their importance scores from XGBoost.
 
 ### **Outlier Removal**
 - Removes extreme outliers to improve model generalization.

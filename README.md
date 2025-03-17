@@ -67,7 +67,7 @@ We implemented and compared **Random Forest (RF) and XGBoost (XGB)** under diffe
 | **Random Forest + SMOTE + RFE** | 0.97 | 0.92 | 0.94 | 0.91 |
 | **XGBoost (Normal Sampling)** | 0.96 | 0.90 | 0.93 | 0.87 |
 | **XGBoost + SMOTE** | 0.98 | 0.94 | 0.96 | 0.92 |
-| **XGBoost + SMOTE + Feature Selector** | 0.97 | 0.94 | 0.95 | 0.92 |
+| **XGBoost + SMOTE + Feature Selection** | 0.97 | 0.94 | 0.95 | 0.92 |
 
 ---
 
@@ -78,7 +78,7 @@ We implemented and compared **Random Forest (RF) and XGBoost (XGB)** under diffe
 - `ML_Random_Forest (Final).ipynb` → RF with SMOTE + Feature Selection  
 - `XGB (Baseline).ipynb` → Baseline XGBoost model  
 - `XGB (SMOTE).ipynb` → XGBoost with SMOTE  
-- `XGB (SMOTE + Feature_Selector).ipynb` → XGBoost with SMOTE + Feature Selection  
+- `XGB (SMOTE + Feature_Selection).ipynb` → XGBoost with SMOTE + Feature Selection  
 
 ---
 

@@ -61,9 +61,9 @@ We implemented and compared **Random Forest (RF) and XGBoost (XGB)** under diffe
 
 | **Technique** | **Precision** | **Recall** | **F1-Score** | **PR-AUC** |
 |--------------|-------------|------------|-------------|----------|
-| **Random Forest** (Normal Sampling) | 0.84 | 0.66 | 0.72 | 0.31 |
-| **Random Forest + SMOTE** | 0.95 | 0.93 | 0.94 | 0.92 |
-| **Random Forest + SMOTEENN** | 0.92 | 0.93 | 0.93 | 0.89 |
+| **Random Forest** (Normal Sampling) | 0.97 | 0.91 | 0.94 | 0.86 |
+| **Random Forest + SMOTE** | 0.95 | 0.90 | 0.93 | 0.87 |
+| **Random Forest + SMOTEENN** | 0.94 | 0.92 | 0.92 | 0.86 |
 | **Random Forest + SMOTE + RFE** | 0.97 | 0.92 | 0.94 | 0.91 |
 | **XGBoost (Normal Sampling)** | 0.96 | 0.90 | 0.93 | 0.87 |
 | **XGBoost + SMOTE** | 0.98 | 0.94 | 0.96 | 0.92 |
